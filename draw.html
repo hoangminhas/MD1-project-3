@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ve hinh</title>
+    <style>
+        .center{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<script>
+    let snow = "";
+    for (let i = 0; i < 5; i++){
+        snow += '*';
+        document.write(snow + "<br>");
+    }
+    document.write("<hr>");
+
+    let snow2 = "*****";
+    let realSnow
+    for (let i=0; i<5; i++) {
+
+        realSnow = snow2.substr(i, 5);
+        document.write("<br>")
+        document.write(realSnow);
+    }
+    document.write("<hr>");
+
+    let snow3 = "";
+    for (let i=0; i<20; i++) {
+        snow3 += '*';
+    }
+    for (let j=0; j<20; j++) {
+
+    }
+
+document.write(snow3);
+
+</script>
+<hr>
+<p class="center">*</p>
+<p class="center">**</p>
+<p class="center">***</p>
+<p class="center">****</p>
+<p class="center">*****
+<hr>
+
+<p>**************</p>
+<p>**&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp**</p>
+<p>**&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp**</p>
+<p>**************</p>
+<hr>
+
+</body>
+</html>
