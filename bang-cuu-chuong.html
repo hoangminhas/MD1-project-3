@@ -4,11 +4,20 @@
     <meta charset="UTF-8">
     <title>Bang cuu chuong</title>
     <style>
+        table{
+            box-shadow: darkseagreen 20px 25px 35px;
+        }
         tr:nth-child(even){
             background-color: #ff2d26;
+            font-family: Superclarendon;
+            font-size: x-large;
+            color: azure;
         }
         tr:nth-child(odd){
-            background-color: fuchsia;
+            background-color: gold;
+            font-family: Zapfino;
+            font-size: large;
+            color: deepskyblue;
         }
     </style>
 </head>
@@ -26,10 +35,10 @@
 
 <script>
     let bang = "<table border='1' width='100%' cellSpacing='0' cellPadding='3'>"
-    for (let i=2; i<=9; i++){
+    for (let i=1; i<=9; i++){
         bang += "<tr>";
-        for (let j=1; j<=9; j++) {
-            bang += "<td style='color: lightcyan;'>" + i + 'x' + j + "= " + i*j + "</td>";
+        for (let j=2; j<=9; j++) {
+            bang += "<td>" + j + 'x' + i + "= " + i*j + "</td>";
         }
         bang += "</tr>";
     }
