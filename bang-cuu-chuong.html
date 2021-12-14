@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bang cuu chuong</title>
+    <style>
+        tr:nth-child(even){
+            background-color: #ff2d26;
+        }
+        tr:nth-child(odd){
+            background-color: fuchsia;
+        }
+    </style>
+</head>
+<body>
+<!--<table>-->
+<!--    <tr>-->
+<!--        <td></td>-->
+<!--        <td></td>-->
+<!--    </tr>-->
+<!--    <tr>-->
+<!--        <td></td>-->
+<!--        <td></td>-->
+<!--    </tr>-->
+<!--</table>-->
+
+<script>
+    let bang = "<table border='1' width='100%' cellSpacing='0' cellPadding='3'>"
+    for (let i=2; i<=9; i++){
+        bang += "<tr>";
+        for (let j=1; j<=9; j++) {
+            bang += "<td style='color: lightcyan;'>" + i + 'x' + j + "= " + i*j + "</td>";
+        }
+        bang += "</tr>";
+    }
+    bang += "</table>";
+    document.write(bang);
+</script>
+</body>
+</html>
