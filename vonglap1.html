@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyen tap vong lap 1</title>
+</head>
+<body>
+<button id="play" style="position: relative; left: 570px; top: 150px; height: 5em; width: 10em; border-radius: 17px; background-color: blanchedalmond; color: crimson; font-family: 'Droid Serif'; font-size: large" onclick="play()">Choi</button>
+
+<script>
+  // Bai 8:
+  //   function play(){
+  //       let x = 1
+  //       let min = +prompt("Từ");
+  //       let max = +prompt("Đến");
+  //       let randonNum = Math.floor(Math.random() * (max-min) + min);
+  //       while (x<=1) {
+  //           let answer = +prompt("Guess number: ");
+  //           if (answer == randonNum) {
+  //               alert("Congratulation!");
+  //               x++;
+  //           } else if (answer == "") {
+  //               break;
+  //           } else if (answer > randonNum) {
+  //               alert("Nho hon");
+  //           } else if (answer < randonNum) {
+  //               alert("Lon hon");
+  //           } else {
+  //               alert("sai");
+  //           }
+  //       }
+  //   }
+
+
+
+  //Bai 1:
+  // let i = 1;
+  // while (i<100){
+  //   document.write(i + "<br>");
+  //   if (i==99) {
+  //     alert("Completed");
+  //   }
+  //   i++;
+  // }
+
+  //Bai 2
+  // let a = prompt("Nhiet do?");
+  // let i = 0;
+  // while (a<20 && a>100){
+  //   if(a>100){
+  //     alert("Giam nhiet do");
+  //   } else if (a<20) {
+  //     alert("Tang nhiet do");
+  //   } else {
+  //       alert("Nhap lai")
+  //   }
+  //   alert("Nhap lai");
+  // }
+
+
+
+  //Bai 3: Hien thi 20 so trong day Fibonacci dau tien
+  // let numbers = +prompt("Nhap bao nhieu so");
+  // let a = 1;
+  // let b = 1;
+  // let fibonacci = "";
+  // let temp;
+  // for (let i=2; i<numbers; i++){
+  //     fibonacci += a + " ";
+  //     temp = a + b;
+  //     a = b;
+  //     b = temp;
+  // }
+  // document.write(fibonacci);
+
+  //Bai 4: tim so dau tien trong day Fibonacci chia het cho 5
+  // let numbers = 10;
+  // let a=1;
+  // let b=1;
+  // let temp;
+  // for (let i=2; i<numbers; i++){
+  //     if (a % 5 == 0) {
+  //         alert("So Fibonacci dau tien chia het cho 5 la: " +a);
+  //         break;
+  //     }
+  //     temp = a+b;
+  //     a = b;
+  //     b = temp;
+  // }
+
+  //Bai 5: tinh tong 20 so dau tien trong day Fibonacci
+  // let numbers = 20;
+  // let a = 1;
+  // let b = 1;
+  // let temp;
+  // let sum = 0;
+  // let fibonacci = "";
+  // for (let i=2; i<numbers; i++){
+  //     sum += a;
+  //     fibonacci += a + " ";
+  //     temp = a+b;
+  //     a=b;
+  //     b=temp;
+  // }
+  //   document.write(fibonacci);
+  //   document.write("<br>");
+  //   document.write("= " +sum);
+
+    //Bai 6:
+  // let num = 30;
+  // let sum = 0;
+  // let log = "30 so dau tien chia het cho 7: "
+  // for (let i=0; i<=30; i++){
+  //     log += i*7 + "+";
+  //     sum += i*7;
+  // }
+  // document.write(log + "<br>");
+  // document.write("= " + sum);
+
+  //Bai 7:
+  // let num = 100;
+  // for (let i=1; i<=num; i++){
+  //     if(i%3==0 && i%5==0) {
+  //         document.write(i + " FizzBuzz" + "<br>");
+  //     } else if (i%3==0) {
+  //         document.write(i+ " Fizz" + "<br>");
+  //     } else if (i%5==0) {
+  //         document.write(i+ " Buzz" + "<br>");
+  //     } else {
+  //           document.write(i + "<br>");
+  //     }
+  // }
+
+</script>
+</body>
+</html>
